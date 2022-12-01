@@ -1,0 +1,88 @@
+﻿<Window x:Class="kartkoweczka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kartkoweczka"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50px"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Column="1" Grid.Row="0" Margin="10px">1</Button>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <Button Grid.Column="1" Grid.Row="1" Width="200px" Height="25px" HorizontalAlignment="Left">1</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="200px" Height="25px" HorizontalAlignment="Left">2</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="200px" Height="25px" HorizontalAlignment="Left">3</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="200px" Height="25px" HorizontalAlignment="Left">4</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <Button Grid.Column="1" Grid.Row="1" Width="50px" Height="40px" HorizontalAlignment="Right">1</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="50px" Height="40px" HorizontalAlignment="Right">2</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="50px" Height="40px" HorizontalAlignment="Right">3</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <Button Grid.Column="1" Grid.Row="1" Width="50px" Height="40px" HorizontalAlignment="Right" Margin="0,0,50,0">1</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="50px" Height="40px" HorizontalAlignment="Right" Margin="0,0,50,0">2</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="50px" Height="40px" HorizontalAlignment="Right" Margin="0,0,50,0">3</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" Margin="0,120">
+            <Button Grid.Column="1" Grid.Row="1" Width="40px" Height="20px" HorizontalAlignment="Right" Margin="5">1</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="40px" Height="20px" HorizontalAlignment="Right" Margin="5">2</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="40px" Height="20px" HorizontalAlignment="Right" Margin="5">3</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" Margin="0,120,45,0">
+            <Button Grid.Column="1" Grid.Row="1" Width="40px" Height="20px" HorizontalAlignment="Right" Margin="5">1</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="40px" Height="20px" HorizontalAlignment="Right" Margin="5">2</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="40px" Height="20px" HorizontalAlignment="Right" Margin="5">3</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" Margin="0,210,45,0">
+            <Button Grid.Column="1" Grid.Row="1" Width="40px" Height="20px" HorizontalAlignment="Right" Margin="5">1</Button>
+            <Button Grid.Column="1" Grid.Row="1" Width="40px" Height="20px" HorizontalAlignment="Right" Margin="5">2</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Bottom">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="310px"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150px"></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Column="0" Grid.Row="0">
+                    <Button>1</Button>
+                    <Button Width="40px" Height="110px" HorizontalAlignment="Left">2</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="0">
+                    <Button Width="40px" Height="110px" HorizontalAlignment="Right" Margin="0,20">1</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="0">
+                    <Button Width="230" Margin="0,20">1</Button>
+                    <Button Width="230" Height="90" Margin="0,-20">2</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Bottom">
+                    <Button>2</Button>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="530,0,0,0">
+            <Button Grid.Column="1" Grid.Row="1" Width="50px" Height="150px">1</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="475,0,0,0">
+            <Button Grid.Column="1" Grid.Row="1" Width="50px" Height="150px">1</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="310,0,0,0">
+            <Button Grid.Column="1" Grid.Row="1" Width="50px" Height="150px">1</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="365,0,0,0">
+            <Button Grid.Column="1" Grid.Row="1" Width="50px" Height="150px">1</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="420,0,0,0">
+            <Button Grid.Column="1" Grid.Row="1" Width="50px" Height="150px">1</Button>
+        </StackPanel>
+    </Grid>
+</Window>
